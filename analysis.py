@@ -190,7 +190,7 @@ def get_jumping_means(epo, boundaries):
         boundaries (list): List of time boundaries in seconds.
 
     Returns:
-        np.ndarray: Array of shape (n_epochs, n_channels, n_windows).
+        np.ndarray: Array of mean signal values.
     """
 
     shape_orig = epo.get_data().shape
