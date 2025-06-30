@@ -3,10 +3,10 @@
 This repository contains the newly introduced Python modules from my Bachelor's thesis. While initially designed to function within the refactored Python version of the aphasia rehabilitation codebase used by Simon Kojima et al. (2024), the modules should function with any auditory stimuli presented through PyAudio. The current classification pipeline uses XDF files as input, but could easily be edited to incorporate EEG files. 
 
 #### Overview of modules:
-Session Manager: keeps track of participant names, folders, logging, etc.
-EQ: creates and applies filter bank to audio.
-Analysis: classification of EEG data, returns single-trial AUC scores.
-Optimization: takes AUC scores from analysis.py and predicts the optimal configuration using Gaussian process regression.
+- Session Manager: keeps track of participant names, folders, logging, etc.
+- EQ: creates and applies filter bank.
+- Analysis: classification of EEG data, returns single-trial AUC scores.
+- Optimization: takes AUC scores from analysis.py and predicts the optimal configuration using Gaussian process regression.
 
 
 #### References
